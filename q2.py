@@ -24,12 +24,13 @@ def floating_prime(number):
         number=number*10
     return False
         
-# while(True):
-#     number=input()
-#     if(number=="0.0"):
-#         break
-#     print(floating_prime(number))
-
-    
-x = float('1.657')
-print(floating_prime(x))
+while(True):
+    number=input()
+    try:
+        number=float(number)
+    except ValueError:
+        pass
+    else:
+        if(number==0.0):
+            break
+        print(floating_prime(number))

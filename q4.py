@@ -21,6 +21,3 @@ def logo_json():
         companies_logo_dict["companies"].append({"logo":"https://theinternship.io/{0}".format(i[0])})
 
     return json.dumps(companies_logo_dict, indent=4, ensure_ascii=False)
-
-if __name__ == "__main__":
-    print(logo_json())
