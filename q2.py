@@ -18,10 +18,11 @@ def isPrime(number):
 
 def floating_prime(number):
 
-    for i in range(4):
+    for i in range(3):
+        number=number*10
         if(isPrime(int(number))):
             return True
-        number=number*10
+        
     return False
         
 while(True):
