@@ -1,5 +1,5 @@
 # question = input()
-question = "4 4 3 5 6 0 6 6 0 0 4 6"
+question = input()
 question = question.split(" ")
 answer = ["-"] * 12
 wrong = ""
