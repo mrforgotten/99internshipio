@@ -1,4 +1,3 @@
-# question = input()
 question = input()
 question = question.split(" ")
 answer = ["-"] * 12
